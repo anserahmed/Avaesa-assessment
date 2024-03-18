@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=PT+Sans&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=New+Tegomin&family=PT+Sans&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=New+Tegomin&family=PT+Sans&family=Patrick+Hand+SC&family=Poppins:wght@300;400&display=swap');
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #9dbeff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #323f48;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  gap: 1;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 2rem;
+  height: 5rem;
+  background: #2cb1e23b;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  /* background-color: #555; */
+  background: #289ec960;
+  transition: 0.4s;
+
+ 
+}
+
+header {
+  /* background: url('background.jpg') no-repeat center center/cover; */
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+}
+
+#info{
+  text-align: center;
+  padding: 3rem 0rem;
+  background-color: #282c34b5;
+
+}
+#info h2{
+ 
+  color:#FFA500
+
+}
+
+#product h2{
+ 
+  color:#FFA500
+
+}
+
+#cont a{
+text-decoration: none;
+color:#FFA500
+}
+
+#cont a :hover{
+text-decoration: none;
+color:#ffa6003d
+}
+
+.card{
+  display: flex;
+  margin: 1rem;
+}
+
+.container {
+  /* font-size: xx-large; */
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  /* max-width: 1100px; */
+  margin: 0 auto;
+  /* height: 100vh; */
+}
+
+.container ul {
+  font-size: large;
+}
+
+.container p {
+  font-size: xx-large;
+}
+
+.container h1 {
+  font-size: xxx-large;
+}
+
+.container img {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 300px;
+  width: 500px;
+}
+
+#about{
+  padding: 1rem 1em;
+  background-color: #282c34b5;
+  height: 100%;
+}
+
+#about h2{
+
+  text-align: center;
+  /* font-family: "Patrick Hand SC";
+  font-weight: 100;
+  font-style: normal; */
+  padding: 2rem 3rem;
+  color: #FFA500;
+
+
+}
+#about h1{
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 3rem;
+  color:aliceblue;
+  /* font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 300;
+  font-style: normal; */
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.highlight {
+  color: #FFA500;
+  /* Orange color for highlight */
+}
+
+.about-content {
+  display: flex;
+}
+
+.about-content p {
+  justify-content: center;
+  text-align: center;
+  font-family: "Patrick Hand SC";
+  font-weight: 100;
+  font-style: normal;
+  padding: 3rem;
+}
+
+
+section {
+  color: #fff;
+  padding: 0px 0;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.btn {
+text-align: center;
+}
+
+.btn button {
+  margin: .5rem;
+  cursor: pointer;
+  padding: .7em 1rem;
+  color:rgba(0, 0, 0, 0.978);
+  background-color: #FFA500;
+  border-radius: 20px;
+  border: none;
+}
+
+.btn button:hover{
+  margin: .5rem;
+  cursor: pointer;
+  padding: .7em 1rem;
+  color:rgb(241, 241, 241);
+  background-color: #df9100b8;
+  border-radius: 25px;
+  border: none;
+  transition: 0.3s;
+}
+
+.course{
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+  display: flex;
+  margin: 1rem;
+}
+
+#product{
+  text-align: center;
+  padding: 3rem 0rem;
+  /* background-color: #282c34b5; */
+}
+#events{
+  text-align: center;
+  padding: 3rem
+}
+
+#events h2{
+  color: #FFA500;
+
+}
+#contact{
+  text-align: center;
+  padding: 3rem;
+  background-color: #282c34b5;
+
+  
+}
+#contact h2 {
+  color: #FFA500;
+}
+#contact li{
+  list-style: none;
+}
+
+footer {
+  background: #2cb1e23b;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
